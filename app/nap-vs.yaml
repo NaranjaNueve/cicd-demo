@@ -3,7 +3,7 @@ kind: VirtualServer
 metadata:
   name: juice-shop
 spec:
-  host: 20.120.77.247
+  host: https://20.120.77.247
   tls:
     secret: juice-shop-secret
   ingressClassName: vidaurreta-nginx-ingress  
